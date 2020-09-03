@@ -19,7 +19,8 @@
     "react-native-gesture-handler": "^1.7.0",
     "react-native-reanimated": "^1.13.0",
     "react-native-safe-area-context": "^3.1.7",
-    "react-native-screens": "^2.10.1"
+    "react-native-screens": "^2.10.1",
+    "react-native-vector-icons": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -29,6 +30,7 @@
     "@types/react-native": "^0.63.13",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
+    "@types/react-native-vector-icons": "^6.4.5",
     "babel-jest": "^25.1.0",
     "eslint": "^7.8.1",
     "eslint-config-airbnb": "^18.2.0",
