@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import Routes from './routes';
+import { NavigationContainer } from '@react-navigation/native';
 
 const App = (): JSX.Element => {
   return (
-    <View>
-      <Text>Hello</Text>
-    </View>
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
   );
 };
 

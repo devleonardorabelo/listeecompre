@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-
-// import { Container } from './styles';
+import { View } from 'react-native';
+import RoundedButton from '../../components/Button/Rounded';
 
 const Home: React.FC = () => {
   return (
     <View>
-      <Text>Home</Text>
+      <RoundedButton title="Confirmar" action={() => console.log('iuuu')} />
+      <RoundedButton title="Cancelar" disabled={true} action={() => console.log('iuuu')} />
     </View>
   );
 };
