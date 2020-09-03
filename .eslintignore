@@ -1,0 +1,6 @@
+**/*.js
+android
+ios
+_tests_
+.vscode
+node_modules
