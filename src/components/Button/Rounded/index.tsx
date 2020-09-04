@@ -6,18 +6,18 @@ import styles from './styles';
 
 interface Props {
   title: string;
-  color: string;
+  iconBackground?: string;
   action: () => void;
   disabled?: boolean;
 }
 
-const RoundedButton: React.FC<Props> = ({ title, color, action, disabled }) => (
+const RoundedButton: React.FC<Props> = ({ title, iconBackground, action, disabled }) => (
   <TouchableOpacity
     onPress={action}
     disabled={disabled}
     style={[
       styles.button,
-      !disabled ? { backgroundColor: color } : { backgroundColor: ThemeColors.gray },
+      !disabled ? { backgroundColor: iconBackground } : { backgroundColor: ThemeColors.lightGray2 },
     ]}>
     <Text style={styles.textButton}>{title}</Text>
   </TouchableOpacity>
@@ -25,7 +25,7 @@ const RoundedButton: React.FC<Props> = ({ title, color, action, disabled }) => (
 
 RoundedButton.defaultProps = {
   disabled: false,
-  color: ThemeColors.green,
+  iconBackground: ThemeColors.green,
 };
 
 export default RoundedButton;

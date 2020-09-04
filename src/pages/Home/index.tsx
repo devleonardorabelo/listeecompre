@@ -1,25 +1,27 @@
 import React from 'react';
 import { View } from 'react-native';
+import { ThemeColors } from '../../contexts/Theme';
+
 import RoundedButton from '../../components/Button/Rounded';
 import CircularButton from '../../components/Button/Circular';
-
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import { ThemeColors } from '../../contexts/Theme';
+import BoxButton from '../../components/Button/Box';
 
 const Home: React.FC = () => {
   return (
     <View>
       <RoundedButton title="Confirmar" action={() => console.log('iuuu')} />
       <RoundedButton title="Cancelar" disabled={true} action={() => console.log('iuuu')} />
+      <CircularButton icon="plus" action={() => {}} />
+      <CircularButton icon="check" action={() => {}} />
       <CircularButton
-        icon={<Icon name="plus" size={24} color={ThemeColors.white} />}
+        iconBackground={ThemeColors.green}
+        iconColor={ThemeColors.white}
+        icon="chevron-right"
         action={() => {}}
+        disabled={true}
       />
-      <CircularButton
-        backgroundColor={ThemeColors.lightGray2}
-        icon={<Icon name="chevron-right" size={24} color={ThemeColors.white} />}
-        action={() => {}}
-      />
+      <CircularButton icon="chevron-right" action={() => {}} />
+      <BoxButton icon="plus" action={() => {}} title="Adicionar Categoria" />
     </View>
   );
 };
