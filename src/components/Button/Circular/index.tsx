@@ -6,23 +6,25 @@ import styles from './styles';
 
 interface Props {
   icon: JSX.Element;
-  color?: string;
+  iconColor?: string;
+  backgroundColor?: string;
   action: () => void;
   disabled?: boolean;
 }
 
-const CircularButton: React.FC<Props> = ({ icon, color, action, disabled }) => (
+const CircularButton: React.FC<Props> = ({ icon, backgroundColor, action, disabled }) => (
   <TouchableOpacity
     onPress={action}
     disabled={disabled}
-    style={[styles.circularButton, { backgroundColor: color }]}>
+    style={[styles.circularButton, { backgroundColor: backgroundColor }]}>
     {icon}
   </TouchableOpacity>
 );
 
 CircularButton.defaultProps = {
   disabled: false,
-  color: ThemeColors.blue,
+  iconColor: ThemeColors.white,
+  backgroundColor: ThemeColors.blue,
 };
 
 export default CircularButton;
