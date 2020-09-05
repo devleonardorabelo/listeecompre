@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import styles from './styles';
-import { ThemeColors } from '../../../contexts/Theme';
+import { ThemeColors } from '../../../constants/Theme';
 import { Text } from 'react-native';
 import CircularButton from '../Circular';
 

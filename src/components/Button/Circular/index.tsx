@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { ThemeColors } from '../../../contexts/Theme';
+import { ThemeColors } from '../../../constants/Theme';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import styles from './styles';
 

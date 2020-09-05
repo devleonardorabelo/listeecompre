@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { ThemeColors, ThemeFontSizes } from '../../contexts/Theme';
+import { ThemeColors, ThemeFontSizes } from '../../constants/Theme';
 
 import { BoxButton, CircularButton, RoundedButton } from '../../components/Button';
 import { Text, Title } from '../../components/Text';

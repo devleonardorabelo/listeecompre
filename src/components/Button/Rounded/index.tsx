@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text } from 'react-native';
-import { ThemeColors } from '../../../contexts/Theme';
+import { ThemeColors } from '../../../constants/Theme';
 
 import styles from './styles';
 
