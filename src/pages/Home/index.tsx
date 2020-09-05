@@ -2,9 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { ThemeColors, ThemeFontSizes } from '../../contexts/Theme';
 
-import RoundedButton from '../../components/Button/Rounded';
-import CircularButton from '../../components/Button/Circular';
-import BoxButton from '../../components/Button/Box';
+import { BoxButton, CircularButton, RoundedButton } from '../../components/Button';
 import { Text, Title } from '../../components/Text';
 
 const Home: React.FC = () => {
