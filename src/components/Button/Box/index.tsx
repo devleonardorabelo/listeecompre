@@ -13,6 +13,7 @@ interface Props {
   backgroundColor?: string;
   action: () => void;
   disabled?: boolean;
+  style?: React.ReactNode;
 }
 
 const BoxButton: React.FC<Props> = ({
@@ -23,6 +24,7 @@ const BoxButton: React.FC<Props> = ({
   backgroundColor,
   action,
   disabled,
+  style,
 }) => (
   <TouchableOpacity
     onPress={action}
@@ -31,6 +33,7 @@ const BoxButton: React.FC<Props> = ({
       !disabled
         ? { backgroundColor: backgroundColor }
         : { backgroundColor: ThemeColors.lightGray2 },
+      style,
     ]}>
     <CircularButton
       icon={icon}

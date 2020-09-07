@@ -10,15 +10,24 @@ interface Props {
   iconBackground?: string;
   action: () => void;
   disabled?: boolean;
+  style?: React.ReactNode;
 }
 
-const CircularButton: React.FC<Props> = ({ icon, iconBackground, iconColor, action, disabled }) => (
+const CircularButton: React.FC<Props> = ({
+  icon,
+  iconBackground,
+  iconColor,
+  action,
+  disabled,
+  style,
+}) => (
   <TouchableOpacity
     onPress={action}
     disabled={disabled}
     style={[
       styles.circularButton,
       !disabled ? { backgroundColor: iconBackground } : { backgroundColor: ThemeColors.lightGray2 },
+      style,
     ]}>
     <Icon name={icon} size={24} color={!disabled ? iconColor : ThemeColors.white} />
   </TouchableOpacity>

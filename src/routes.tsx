@@ -3,7 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from './pages/Home';
 
-import { ThemeFontSizes } from './constants/Theme';
+import { ThemeFontSizes, ThemeColors } from './constants/Theme';
 import { CircularButton } from './components/Button';
 import { Title } from './components/Text';
 
@@ -27,6 +27,9 @@ const Routes: React.FC = () => (
         },
         headerLeftContainerStyle: {
           paddingLeft: 8,
+        },
+        cardStyle: {
+          backgroundColor: ThemeColors.lightBlue3,
         },
       }}
     />

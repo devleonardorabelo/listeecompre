@@ -9,15 +9,17 @@ interface Props {
   iconBackground?: string;
   action: () => void;
   disabled?: boolean;
+  style?: React.ReactNode;
 }
 
-const RoundedButton: React.FC<Props> = ({ title, iconBackground, action, disabled }) => (
+const RoundedButton: React.FC<Props> = ({ title, iconBackground, action, disabled, style }) => (
   <TouchableOpacity
     onPress={action}
     disabled={disabled}
     style={[
       styles.button,
       !disabled ? { backgroundColor: iconBackground } : { backgroundColor: ThemeColors.lightGray2 },
+      style,
     ]}>
     <Text style={styles.textButton}>{title}</Text>
   </TouchableOpacity>
