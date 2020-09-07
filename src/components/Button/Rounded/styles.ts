@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
   textButton: {
     color: ThemeColors.white,
     fontSize: 18,
+    marginBottom: -4,
     fontFamily: 'Martel Sans ExtraBold',
   },
 });

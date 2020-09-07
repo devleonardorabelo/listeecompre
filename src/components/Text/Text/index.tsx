@@ -1,19 +1,20 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text as NormalText } from 'react-native';
 
 import styles from './styles';
 
 interface Props {
   children: string;
   semiBold?: boolean;
+  style?: React.ReactNode;
 }
 
-const Title: React.FC<Props> = ({ children, semiBold }) => (
-  <Text style={!semiBold ? styles.regular : styles.semiBold}>{children}</Text>
+const Text: React.FC<Props> = ({ children, semiBold, style }) => (
+  <NormalText style={[!semiBold ? styles.regular : styles.semiBold, style]}>{children}</NormalText>
 );
 
-Title.defaultProps = {
+Text.defaultProps = {
   semiBold: false,
 };
 
-export default Title;
+export default Text;

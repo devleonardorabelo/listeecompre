@@ -7,12 +7,14 @@ const styles = StyleSheet.create({
     fontSize: ThemeFontSizes.P,
     letterSpacing: 0.04,
     color: ThemeColors.gray,
+    marginBottom: -8,
   },
   semiBold: {
     fontFamily: 'Martel Sans SemiBold',
     fontSize: ThemeFontSizes.P,
     letterSpacing: 0.04,
     color: ThemeColors.gray,
+    marginBottom: -8,
   },
 });
 

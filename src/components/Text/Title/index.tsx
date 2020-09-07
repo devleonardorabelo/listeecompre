@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Title: React.FC<Props> = ({ children, size }) => (
-  <Text style={[styles.title, { fontSize: size }]}>{children}</Text>
+  <Text style={[styles.title, { fontSize: size, marginBottom: -size + 8 }]}>{children}</Text>
 );
 
 export default Title;
