@@ -1,3 +1,12 @@
+<p>
+  <img src=https://img.shields.io/badge/Versão-1.0-green />
+  <img src=https://img.shields.io/badge/React%20Native-0.63.2-blue />
+  <img src=https://img.shields.io/badge/React%20Navigation-5.x-blueviolet />
+  <img src=https://img.shields.io/badge/React%20Native%20Vector%20Icons-7.0.0-blue />
+</p>
+
+
+
 <h1 align="center">Liste&Compre</h1>
 <h2 align="center">Aplicativo de listagem de itens para compra</h2>
 
