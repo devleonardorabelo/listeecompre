@@ -15,11 +15,11 @@
 
 O Liste&Compre é um aplicativo que tem como intuito ajudar seus usuários a fazerem suas listas de compras, onde criam uma lista de suas necessidades e iniciam a mesma durante a compra.
 
-### Protótipo
+#### Protótipo
 
 Para prototipagem foi utilizado o Figma. Para visualizar, Figma <a href="https://www.figma.com/file/xKNyoxuaLflfzrMAWzWLIj/Untitled?node-id=0%3A1">clique aqui.</a>
 
-### Projeto
+#### Projeto
 
 Este projeto foi criado utilizando Typescript, React Native e as seguintes bibliotecas:
 
@@ -32,7 +32,7 @@ Este projeto foi criado utilizando Typescript, React Native e as seguintes bibli
 
 ## Inicialização
 
-### Instalação
+#### Instalação
 
 Clone o repositório na pasta desejada:
 
@@ -43,13 +43,13 @@ Clone o repositório na pasta desejada:
     yarn install
     
 
-### Iniciar
+#### Iniciar
 
 É necessário ter o Visual Studio ou algum smartphone com depuração USB para emular o aplicativo utilizando o seguinte comando:
 
     react-native run-android
     
-### Telas
+## Telas
 
 Segue abaixo parte do design da Interface e algumas telas.
 
