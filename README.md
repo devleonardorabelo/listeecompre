@@ -5,14 +5,19 @@
   <img src=https://img.shields.io/badge/React%20Native%20Vector%20Icons-7.0.0-blue />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devleonardorabelo/listeecompre/master/src/assets/images/logo.png" />
+</p>
 
-
-<h1 align="center">Liste&Compre</h1>
 <h2 align="center">Aplicativo de listagem de itens para compra</h2>
 
 ## Descrição
 
 O Liste&Compre é um aplicativo que tem como intuito ajudar seus usuários a fazerem suas listas de compras, onde criam uma lista de suas necessidades e iniciam a mesma durante a compra.
+
+### Protótipo
+
+Para prototipagem foi utilizado o Figma. Para visualizar, Figma <a href="https://www.figma.com/file/xKNyoxuaLflfzrMAWzWLIj/Untitled?node-id=0%3A1">clique aqui.</a>
 
 ### Projeto
 
@@ -23,6 +28,7 @@ Este projeto foi criado utilizando Typescript, React Native e as seguintes bibli
   <li>React Vector Icons</li>
   <li>Async Storage</li>
 </ul>
+
 
 ## Inicialização
 
@@ -43,4 +49,8 @@ Clone o repositório na pasta desejada:
 
     react-native run-android
     
+### Telas
 
+Segue abaixo parte do design da Interface e algumas telas.
+
+<img src="https://raw.githubusercontent.com/devleonardorabelo/listeecompre/master/prototipo.jpg" />
