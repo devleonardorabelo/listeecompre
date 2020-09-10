@@ -17,7 +17,7 @@ O Liste&Compre é um aplicativo que tem como intuito ajudar seus usuários a faz
 
 #### Protótipo
 
-Para prototipagem foi utilizado o Figma. Para visualizar, Figma <a href="https://www.figma.com/file/xKNyoxuaLflfzrMAWzWLIj/Untitled?node-id=0%3A1">clique aqui.</a>
+Para prototipagem foi utilizado o Figma. Para visualizar, <a href="https://www.figma.com/file/xKNyoxuaLflfzrMAWzWLIj/Untitled?node-id=0%3A1">clique aqui.</a>
 
 #### Projeto
 
