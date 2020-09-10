@@ -1,12 +1,23 @@
 import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 
-import { Text, Box, Section } from '../../components';
+import { Box, Section, Navigation, BoxButton } from '../../components';
 
 const Home: React.FC = () => {
+  const { navigate } = useNavigation();
+
   return (
     <Section>
       <Box>
-        <Text>Teste</Text>
+        <Navigation title="COMPRA DO MÊS" action={() => {}} />
+        <Navigation title="COMPRA DO MÊS" action={() => {}} />
+        <BoxButton
+          icon="plus"
+          title="Nova lista"
+          action={() => {
+            navigate('List');
+          }}
+        />
       </Box>
     </Section>
   );

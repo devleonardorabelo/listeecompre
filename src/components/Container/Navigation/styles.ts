@@ -2,14 +2,15 @@ import { StyleSheet } from 'react-native';
 import { ThemeColors } from '../../../constants/Theme';
 
 const styles = StyleSheet.create({
-  box: {
+  navigation: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingBottom: 16,
     marginBottom: 16,
-    backgroundColor: ThemeColors.white,
-    borderBottomColor: ThemeColors.lightBlue2,
+    borderBottomColor: ThemeColors.lightGray3,
     borderBottomWidth: 1,
-    borderRadius: 8,
-    paddingHorizontal: 20,
-    paddingVertical: 28,
   },
 });
 

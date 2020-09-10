@@ -6,7 +6,6 @@ import { View } from 'react-native';
 
 interface Props {
   style?: React.ReactNode;
-  children: JSX.Element;
 }
 
 const Section: React.FC<Props> = ({ style, children }) => (

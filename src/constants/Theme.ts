@@ -12,6 +12,7 @@ export const ThemeColors = {
   gray: '#5B5B5B',
   lightGray: '#A7A7A7',
   lightGray2: '#DDDDDD',
+  lightGray3: '#E9E9E9',
 };
 export const ThemeFontSizes = {
   H1: 36,
